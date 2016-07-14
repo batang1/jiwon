@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansethiopic.css);
+
+@charset "utf-8";
+
+* {margin:0; padding:0;}
+a{text-decoration:none;}
+img{border:0; display:block; vertical-align:middle;}
+li{list-style:none;}
+em, address{font-size:normal;}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+body{
+}
+
+/* header */
+#header{
+	padding:170px 84px 220px 0;
+	background-image:url(../img/overlay.png), url(../img/bg.jpg);
+	background-size: 100% 100%;
+	width:34%;
+	min-height: 100%;
+	overflow: hidden;
+	text-align: right;
+	color:#cac7c2;
+	position: fixed;
+}
+.img_wrap{
+	float:right;
+	margin-bottom:25px;
+}
+.img_wrap img{
+	border-radius:100%;
+	display: block;
+}
+.head_text{
+	clear: both;
+	font-size: 27px;
+	line-height: 2em;
+	margin-bottom:230px;
+}
+.w_text{
+	color:#fff;
+	font-weight: bold;
+}
+
+
+/* header */
+
+
+/* content */
+#content{
+	margin-left:34%;
+	overflow: hidden;
+	padding:170px 135px 84px;
+}
+.cont_box1{
+	padding-bottom:80px;
+	border-bottom:2px solid #efefef;
+}
+.content_text{
+	font-size: 40px;
+	color:#787878;
+	margin-bottom:30px;
+}
+.content_text2{
+	font-size: 20px;
+	color:#a2a2a2;
+	line-height: 2em;
+}
+.cont_title{
+	padding-top:80px;
+	color:#787878;
+	font-size: 28px;
+	font-weight:500;
+}
+.cont_box2{
+	overflow: hidden;
+}
+.cont_box2 ul{
+	overflow: hidden;
+}
+.cont_box2 ul li{
+	float:left;
+}
+/* //content */
+
+/* footer */
+.footer{
+	overflow: hidden;
+}
+.footer ul{
+	overflow: hidden;
+	float:right;
+}
+.footer ul li{
+	float: left;
+	margin-right:25px;
+}
+.footer_info{
+	clear: both;
+	margin-top:30px;
+	color:#7a7b74;
+}
+.footer_info li a{
+	color:#7a7b74;
+	display: inline-block;
+	border-bottom:dotted 1px;
+}
+
+
+/* //footer */
